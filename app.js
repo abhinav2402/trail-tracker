@@ -2,7 +2,7 @@
 
 var express = require('express');
 var router = express.Router(); // get an instance of the express Router
-var morgan = require('morgan');
+//var morgan = require('morgan');
 
 var Post = require('./app/models/post')
 var bodyParser = require('body-parser');
